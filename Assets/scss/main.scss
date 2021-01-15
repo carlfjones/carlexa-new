@@ -1,0 +1,88 @@
+
+body {
+	background: #F3F3F3;
+	margin: 0;
+	text-align: center;
+}
+
+.title {
+	font-family: 'Bowlby One SC', cursive; 
+}
+
+.intro {
+	font-family: 'Bowlby One SC', cursive; 
+	padding: 30px;
+	color: #000000;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 768px;
+	margin: auto;
+
+	padding: 25px;
+	
+
+
+	#transcript {
+		border-radius: 20px;
+		text-align: left;
+		font-family: 'Nunito', sans-serif;
+		margin-top: 15px;
+		background: #171717;
+		padding: 15px;
+		min-height: 100px;
+		overflow: scroll;
+
+		p {
+			color: #F3F3F3;
+        }
+        answer {
+            color: #F3F3F3;
+        }
+
+        jokesetup { 
+            color: #F3F3F3;
+        }
+        jokedelivery { 
+            color: #F3F3F3;
+		}
+		quote {
+			text-align: right;
+			font-family: 'Bowlby One SC', cursive; 
+			color: #F3F3F3;
+			width: 500px;
+		}
+
+		img {
+			text-align: center;
+			width: 500px;
+		}
+
+
+	}
+}
+
+.example_a {
+	border: none;
+	background: #afafaf;
+	color: #ffffff !important;
+	font-weight: 100;
+	padding: 20px;
+	text-transform: uppercase;
+	border-radius: 6px;
+	display: inline-block;
+	transition: all 0.3s ease 0s;
+	}
+
+	.example_a:hover {
+		color: #404040 !important;
+		font-weight: 700 !important;
+		letter-spacing: 3px;
+		background: none;
+		-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+		-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+		transition: all 0.3s ease 0s;
+		}

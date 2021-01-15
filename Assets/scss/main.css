@@ -1,0 +1,95 @@
+body {
+  background: #F3F3F3;
+  margin: 0;
+  text-align: center;
+}
+
+.title {
+  font-family: 'Bowlby One SC', cursive;
+}
+
+.intro {
+  font-family: 'Bowlby One SC', cursive;
+  padding: 30px;
+  color: #000000;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 768px;
+  margin: auto;
+  padding: 25px;
+}
+
+.wrapper #transcript {
+  border-radius: 20px;
+  text-align: left;
+  font-family: 'Nunito', sans-serif;
+  margin-top: 15px;
+  background: #171717;
+  padding: 15px;
+  min-height: 100px;
+  overflow: scroll;
+}
+
+.wrapper #transcript p {
+  color: #F3F3F3;
+}
+
+.wrapper #transcript answer {
+  color: #F3F3F3;
+}
+
+.wrapper #transcript jokesetup {
+  color: #F3F3F3;
+}
+
+.wrapper #transcript jokedelivery {
+  color: #F3F3F3;
+}
+
+.wrapper #transcript quote {
+  text-align: right;
+  font-family: 'Bowlby One SC', cursive;
+  color: #F3F3F3;
+  width: 500px;
+}
+
+.wrapper #transcript img {
+  text-align: center;
+  width: 500px;
+}
+
+.example_a {
+  border: none;
+  background: #afafaf;
+  color: #ffffff !important;
+  font-weight: 100;
+  padding: 20px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  display: inline-block;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.example_a:hover {
+  color: #404040 !important;
+  font-weight: 700 !important;
+  letter-spacing: 3px;
+  background: none;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+/*# sourceMappingURL=main.css.map */
